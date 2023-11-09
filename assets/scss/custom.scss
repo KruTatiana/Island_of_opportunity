@@ -1,0 +1,41 @@
+// Custom.scss
+
+// 1. Подключение функций Bootstrap (so you can manipulate colors, SVGs, calc, etc)
+@import "../bootstrap/scss/functions";
+
+
+// 2. Наши переменные
+
+
+
+
+// 3. Подключение необходимых таблиц стилей Bootstrap. (including any separate color mode stylesheets)
+@import "../bootstrap/scss/variables";
+@import "..//bootstrap/scss/variables-dark";
+
+// 4. Наши переопределения maps, заданых по умолчанию.
+
+// 5. Подключение необходимых деталей Bootstrap 
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/root";
+
+// 6. Не обязательные детали Bootstrap.
+@import "../bootstrap/scss/utilities";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+@import "../bootstrap/scss/images";
+@import "../bootstrap/scss/containers";
+@import "../bootstrap/scss/grid";
+@import "../bootstrap/scss/helpers";
+
+// 7. Не обязательная API утилита для создания классов на основе карты Sass в `_utilities.scss`
+@import "../bootstrap/scss/utilities/api";
+
+// 8. Наш код здесь
+
+//Header
+
+//Main
+
+//Footer
