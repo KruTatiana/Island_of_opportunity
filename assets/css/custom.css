@@ -11978,12 +11978,34 @@ textarea.form-control-lg {
 }
 .col-button__charity {
   background-color: #077D22;
+  margin-top: 10rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  font-size: 2rem;
+  background-color: #42413E;
+  size: 100%;
+}
+
+.col-text__charity {
+  background-color: #077D22;
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
 }
 
 .container-fluid__charity {
-  background-color: green;
+  background-color: #077D22;
 }
 
+@media screen and (max-width: 768px) {
+  .col-button__charity {
+    margin-top: 1rem;
+  }
+}
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -12012,13 +12034,9 @@ textarea.form-control-lg {
 a.footer__block_navigation1 {
   display: block;
   text-decoration: none;
-  color: black;
+  color: #010101;
 }
 
 a.footer__block_navigation1:hover {
   text-decoration: underline;
-}
-
-.container-fluid__charity {
-  background-color: green;
 }/*# sourceMappingURL=custom.css.map */

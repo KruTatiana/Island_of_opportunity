@@ -59,22 +59,37 @@ $screen-xl-min: 2400px;
 //Charity
 .col-button__charity {
     background-color: $section3-color;
+    margin-top: 10rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
+
+.btn-primary {
+    font-size: 2rem;
+    background-color: $section5-color;
+    size: 100%
+}
+
 
 .col-text__charity {
     background-color: $section3-color;
     font-size: 2rem;
-}
-
-.charity-text {
-    background-color: $section3-color;
-    font-size: 2rem;
+    margin-top: 1rem;
+    color: $font-main-color;
+    margin-bottom: 1rem;
 }
 
 .container-fluid__charity {
     background-color: $section3-color;
 }
 
+
+@media screen and (max-width: $screen-md-min) {
+    
+    .col-button__charity {
+        margin-top: 1rem;
+    }
+}
 
 //Employees
 
