@@ -11978,6 +11978,10 @@ textarea.form-control-lg {
 }
 .col-button__charity {
   background-color: #077D22;
+}
+
+.container-fluid__charity {
+  background-color: #077D22;
   margin-top: 10rem;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -12006,7 +12010,6 @@ textarea.form-control-lg {
     margin-top: 1rem;
   }
 }
-
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
