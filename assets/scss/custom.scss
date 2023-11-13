@@ -101,38 +101,39 @@ $screen-xl-min: 2400px;
 
 //Footer
 
-.footer {
+.footer{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     grid-template-rows: 1fr;
 }
 
-.footer__block_image {
+.footer__block_image{
     height: 60vh;
     width: 90%;
 }
 
-.footer__block_navigation {
+
+.footer__block_navigation{
     display: grid;
     justify-content: center;
     align-content: center;
     font-size: 2rem;
 }
 
-.footer__copy {
+
+.footer__copy{
     display: grid;
     grid-template-columns: 1fr;
-    background-color: $section3-color;
+    background-color: #077D22;
     text-align: center;
 }
 
-a.footer__block_navigation1 {
+a.footer__block_navigation1{
     display: block;
     text-decoration: none;
-    color: $fond-color;
+    color: black;
 }
 
-a.footer__block_navigation1:hover {
+a.footer__block_navigation1:hover{
     text-decoration: underline;
-}
 }
