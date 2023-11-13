@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Остров возможностей</title>
     <link rel="stylesheet" href="./assets/css/custom.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.6.3.js"
-      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
-      crossorigin="anonymous"></script>
   </head>
   <body>
     <header></header>
@@ -17,7 +13,47 @@
         <div></div>
       </section>
       <section id="charity">
-        
+        <div class="container-fluid container-fluid__charity">
+          <div class="row row__charity">
+            <div
+              class="col-12 col-min-6 col-md-6 col-button__charity text-center"
+            >
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+              >
+                Помочь
+              </button>
+              <div class="modal fade" id="modal" tabindex="-1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Спасибо за Ваше участие!</h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <img class="footer__block_image" src="img/Qr.jpeg" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-min-6 col-md-6 col-text__charity">
+              Мы считаем необходимым воспитывать детей в духе патриотизма и
+              любви к Родине, поэтому для наших подопечных мы готовим
+              соответствующие программы. Для реализации наших программ принимаем
+              помощь благотворителей. Если Вы желаете поддержать наши проекты,
+              чтобы можно было оказать помощь большему количеству семей,
+              принимаем добровольные пожертвования.
+            </div>
+          </div>
+        </div>
       </section>
       <section id="employees">
         <div class="container">
@@ -72,17 +108,38 @@
         
           </div>
         </div>
-        
-
       </section>
-      <section id="programs">
-        
-      </section>
+      <section id="programs"></section>
     </main>
     <footer>
-      
+      <div class="footer">
+        <img
+          class="footer__block_image"
+          src="img/kartinki-na-belom-fone-dlya-prezentatsii-83.jpg"
+          alt="Помощь"
+        />
+        <div class="footer__block_navigation">
+          <a class="footer__block_navigation1" href="#" target="_blank"
+            >Семейная библиотека</a
+          >
+          <a class="footer__block_navigation1" href="#" target="_blank"
+            >Музейная деятельность</a
+          >
+          <a class="footer__block_navigation1" href="#" target="_blank"
+            >Новости</a
+          >
+          <a class="footer__block_navigation1" href="#" target="_blank"
+            >Анонсы</a
+          >
+          <a class="footer__block_navigation1" href="#" target="_blank"
+            >Архив мероприятий</a
+          >
+        </div>
+      </div>
+      <div class="footer__copy">
+        <p>&copy;2023</p>
+      </div>
     </footer>
-    
     <script src="./assets/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>

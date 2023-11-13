@@ -62,7 +62,37 @@ $screen-xl-min: 2400px;
 }
 
 .container-fluid__charity {
-    background-color: green;
+    background-color: $section3-color;
+    margin-top: 10rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    font-size: 2rem;
+    background-color: $section5-color;
+    size: 100%
+}
+
+
+.col-text__charity {
+    background-color: $section3-color;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: $font-main-color;
+    margin-bottom: 1rem;
+}
+
+.container-fluid__charity {
+    background-color: $section3-color;
+}
+
+
+@media screen and (max-width: $screen-md-min) {
+    
+    .col-button__charity {
+        margin-top: 1rem;
+    }
 }
 
 //Employees
@@ -92,16 +122,17 @@ $screen-xl-min: 2400px;
 .footer__copy {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #077D22;
+    background-color: $section3-color;
     text-align: center;
 }
 
 a.footer__block_navigation1 {
     display: block;
     text-decoration: none;
-    color: black;
+    color: $fond-color;
 }
 
 a.footer__block_navigation1:hover {
     text-decoration: underline;
+}
 }
