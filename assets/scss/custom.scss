@@ -59,6 +59,10 @@ $screen-xl-min: 2400px;
 //Charity
 .col-button__charity {
     background-color: $section3-color;
+}
+
+.container-fluid__charity {
+    background-color: $section3-color;
     margin-top: 10rem;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -130,4 +134,5 @@ a.footer__block_navigation1 {
 
 a.footer__block_navigation1:hover {
     text-decoration: underline;
+}
 }

@@ -12006,6 +12006,7 @@ textarea.form-control-lg {
     margin-top: 1rem;
   }
 }
+
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
