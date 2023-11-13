@@ -61,9 +61,20 @@ $screen-xl-min: 2400px;
     background-color: $section3-color;
 }
 
-.container-fluid__charity {
-    background-color: green;
+.col-text__charity {
+    background-color: $section3-color;
+    font-size: 2rem;
 }
+
+.charity-text {
+    background-color: $section3-color;
+    font-size: 2rem;
+}
+
+.container-fluid__charity {
+    background-color: $section3-color;
+}
+
 
 //Employees
 
@@ -92,14 +103,14 @@ $screen-xl-min: 2400px;
 .footer__copy {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #077D22;
+    background-color: $section3-color;
     text-align: center;
 }
 
 a.footer__block_navigation1 {
     display: block;
     text-decoration: none;
-    color: black;
+    color: $fond-color;
 }
 
 a.footer__block_navigation1:hover {
