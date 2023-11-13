@@ -20,7 +20,7 @@ $screen-md-min: 768px;
 // Tablets and small desktops
 $screen-lg-min: 992px;
 // Large tablets and desktops
-$screen-xl-min: 1200px;
+$screen-l-min: 1200px;
 // Large desctops
 $screen-xl-min: 2400px;
 
@@ -209,21 +209,19 @@ $screen-xl-min: 2400px;
 //Charity
 .col-button__charity {
     background-color: $section3-color;
+    padding-top: 10rem;
 }
 
 .container-fluid__charity {
     background-color: $section3-color;
-    margin-top: 10rem;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.btn-primary {
-    font-size: 2rem;
-    background-color: $section5-color;
-    size: 100%
+.btn-outline-light {
+    font-size: 3rem;
+    border-radius: 25% 10%;
 }
-
 
 .col-text__charity {
     background-color: $section3-color;
@@ -237,13 +235,22 @@ $screen-xl-min: 2400px;
     background-color: $section3-color;
 }
 
+.modal-text {
+    font-size: 1rem;
+}
 
-@media screen and (max-width: $screen-md-min) {
+@media screen and (max-width: $screen-lg-min) {
     
     .col-button__charity {
-        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    .btn-outline-light {
+        padding-top: 1rem;
     }
 }
+//510-1210
+
 
 //Employees
 
