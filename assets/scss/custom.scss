@@ -1,5 +1,5 @@
 // Custom.scss
-@import "../bootstrap/scss/bootstrap";
+@import "../bootstrap/scss/_bootstrap";
 
 // 1. Подключение функций Bootstrap (so you can manipulate colors, SVGs, calc, etc)
 //@import "../bootstrap/scss/functions";
@@ -49,8 +49,6 @@ $screen-xl-min: 2400px;
 // @import "../bootstrap/scss/utilities/api";
 
 // 8. Наш код здесь
-    
-
 
 //Header
 
@@ -64,17 +62,45 @@ $screen-xl-min: 2400px;
 }
 
 .container-fluid__charity {
-    background-color: green;
+    background-color: $section3-color;
+    margin-top: 10rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    font-size: 2rem;
+    background-color: $section5-color;
+    size: 100%
 }
 
 
+.col-text__charity {
+    background-color: $section3-color;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: $font-main-color;
+    margin-bottom: 1rem;
+}
 
+.container-fluid__charity {
+    background-color: $section3-color;
+}
+
+
+@media screen and (max-width: $screen-md-min) {
+    
+    .col-button__charity {
+        margin-top: 1rem;
+    }
+}
 
 //Employees
 
 //Programs
 
 //Footer
+
 .footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
@@ -86,12 +112,14 @@ $screen-xl-min: 2400px;
     width: 90%;
 }
 
+
 .footer__block_navigation{
     display: grid;
     justify-content: center;
     align-content: center;
     font-size: 2rem;
 }
+
 
 .footer__copy{
     display: grid;
