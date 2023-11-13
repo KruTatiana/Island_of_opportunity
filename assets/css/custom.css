@@ -11855,5 +11855,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.col-button__charity {
+  background-color: #077D22;
+}
+
+.container-fluid__charity {
+  background-color: green;
+}
 
 /*# sourceMappingURL=custom.css.map */
