@@ -12016,7 +12016,6 @@ textarea.form-control-lg {
 
 .phone_number {
   display: flex;
-  width: 150px;
   height: 2.3rem;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -12031,7 +12030,6 @@ textarea.form-control-lg {
 
 .help_header {
   display: flex;
-  width: 100px;
   height: 2.3rem;
   justify-content: center;
   align-items: center;
@@ -12039,6 +12037,7 @@ textarea.form-control-lg {
   font-weight: 500;
   border: 2px solid rgb(3, 30, 106);
   border-radius: 10px;
+  background-color: transparent;
 }
 
 .burger-menu {

@@ -94,7 +94,7 @@ $screen-xl-min: 2400px;
 
 .phone_number {
     display: flex;
-    width: 150px;
+    //width: 150px;
     height: 2.3rem;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -109,7 +109,7 @@ $screen-xl-min: 2400px;
 
 .help_header {
     display: flex;
-    width: 100px;
+    //width: 100px;
     height: 2.3rem;
     justify-content: center;
     align-items: center;
@@ -117,6 +117,7 @@ $screen-xl-min: 2400px;
     font-weight: 500;
     border: 2px solid $font-logo-color;
     border-radius: 10px;
+    background-color: transparent;
 }
 
 //Бургер-меню
