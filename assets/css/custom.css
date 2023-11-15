@@ -12180,6 +12180,8 @@ textarea.form-control-lg {
   } */
 .col-button__charity {
   background-color: #077D22;
+  padding-top: 10rem;
+
 }
 
 .container-fluid__charity {
@@ -12189,10 +12191,9 @@ textarea.form-control-lg {
   margin-bottom: 1rem;
 }
 
-.btn-primary {
-  font-size: 2rem;
-  background-color: #42413E;
-  size: 100%;
+.btn-outline-light {
+  font-size: 3rem;
+  border-radius: 25% 10%;
 }
 
 .col-text__charity {
@@ -12207,9 +12208,16 @@ textarea.form-control-lg {
   background-color: #077D22;
 }
 
-@media screen and (max-width: 768px) {
+.modal-text {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 992px) {
   .col-button__charity {
-    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+  .btn-outline-light {
+    padding-top: 1rem;
   }
 }
 .footer {
