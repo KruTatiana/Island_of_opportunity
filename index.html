@@ -10,10 +10,30 @@
     <header class="header-custom">
       <nav class="container-fluid navbar">
         <div class="container">
-          <div>
-            <img class="logo-image" src="./assets/img/YMpp057x0bM-252x300.jpg" alt="Логотип">  
+          <div class="burger-menu d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span class="menu__btn-line"></span>
+            </label>
+            <ul class="menu__box">
+              <li><a class="menu__item" href="./index.html">Главная</a>
+              </li>
+              <li><a class="menu__item" href="#charity" aria-disabled="true"
+                >Благотворителям</a>
+              </li>
+              <li><a class="menu__item" href="#employees" aria-disabled="true"
+                >Сотрудники</a>
+              </li>
+              <li><a class="menu__item" href="#programs" aria-disabled="true"
+                >Программы</a>
+              </li>
+            </ul>
           </div>
-          <ul role="navigation" class="nav nav-fill d-none d-sm-none d-md-inline-flex d-lg-inline-flex d-xl-block d-xxl-inline-flex">
+          <div class="logo_container">
+              <img class="logo-image" src="./assets/img/NKO_Logo.svg" alt="Логотип">  
+            <div class="name_logo"><span class="name_logo1">остров</span><span class="name_logo2">возможностей</span></div>
+          </div>
+          <ul role="navigation" class="nav nav-fill d-none d-sm-none d-md-inline-flex d-lg-inline-flex d-xl-inline-flex d-xxl-inline-flex">
             <li class="nav-item">
               <a class="nav-link active nav-font-custom" href="./index.html" aria-current="page">Главная</a>
             </li>
@@ -33,26 +53,8 @@
               >
             </li>
           </ul>
-          <a class="nav-link active" href="tel:+7123456789">+7123456789</a>
-          <div class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span class="menu__btn-line"></span>
-            </label>
-            <ul class="menu__box">
-              <li><a class="menu__item" href="./index.html">Главная</a>
-              </li>
-              <li><a class="menu__item" href="#charity" aria-disabled="true"
-                >Благотворителям</a>
-              </li>
-              <li><a class="menu__item" href="#employees" aria-disabled="true"
-                >Сотрудники</a>
-              </li>
-              <li><a class="menu__item" href="#programs" aria-disabled="true"
-                >Программы</a>
-              </li>
-            </ul>
-          </div>
+          <a class="nav-link active phone_number" href="tel:+7123456789">+7123456789</a>
+          <a class="nav-link active help_header" href="tel:+7123456789">Помочь</a>
         </div>
       </nav>
     </header>
