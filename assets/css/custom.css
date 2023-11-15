@@ -12088,17 +12088,57 @@ textarea.form-control-lg {
   transition-duration: 0.25s;
 }
 
+/*Faq
+.faq {
+    max-width: 500px;
+    margin: 10vw auto;
+  }
+.faq-item {
+    border: 1px solid rgb(170, 170, 229) ;
+
+}
+.faq-text {
+    padding: 10px 15px;
+    display: none;
+    font-size: 2rem;
+  }
+.faq-title {
+    display: block;
+    cursor: pointer;
+    padding: 1vw 1vw;
+
+    transition: background .2s;
+    ease-out;
+  }
+
+  .faq-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none ;
+    appearance: none;
+    position: absolute;
+  }
+  .faq-input:cheked + .faq-text {
+    display: block;
+  }
+
+  .faq-title:hover {
+    background-color: bisque;
+  } */
 .col-button__charity {
   background-color: #077D22;
-  margin-top: 10rem;
+  padding-top: 10rem;
+}
+
+.container-fluid__charity {
+  background-color: #077D22;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.btn-primary {
-  font-size: 2rem;
-  background-color: #42413E;
-  size: 100%;
+.btn-outline-light {
+  font-size: 3rem;
+  border-radius: 25% 10%;
 }
 
 .col-text__charity {
@@ -12113,12 +12153,18 @@ textarea.form-control-lg {
   background-color: #077D22;
 }
 
-@media screen and (max-width: 768px) {
-  .col-button__charity {
-    margin-top: 1rem;
-  }
+.modal-text {
+  font-size: 1rem;
 }
 
+@media screen and (max-width: 992px) {
+  .col-button__charity {
+    padding-top: 1rem;
+  }
+  .btn-outline-light {
+    padding-top: 1rem;
+  }
+}
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -12147,7 +12193,7 @@ textarea.form-control-lg {
 a.footer__block_navigation1 {
   display: block;
   text-decoration: none;
-  color: #010101;
+  color: black;
 }
 
 a.footer__block_navigation1:hover {
