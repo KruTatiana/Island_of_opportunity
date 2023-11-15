@@ -53,6 +53,7 @@ $screen-xl-min: 2400px;
 // 8. Наш код здесь
 
 //Header
+
 .header-custom {
     background-color: $header-color;
 }
@@ -222,6 +223,28 @@ $screen-xl-min: 2400px;
 
 .menu__item {
     transition-duration: .25s;
+}
+
+//Кнопка наверх
+
+html {
+    scroll-behavior: smooth;
+}
+
+.akeconsa-udaneles {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 9;
+}
+
+.akeconsa-udaneles a {
+    height: 42px;
+    display: block;
+}
+
+.akeconsa-udaneles a img {
+    cursor: pointer;
 }
 
 //Main

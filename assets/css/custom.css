@@ -12141,6 +12141,26 @@ textarea.form-control-lg {
   transition-duration: 0.25s;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.akeconsa-udaneles {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9;
+}
+
+.akeconsa-udaneles a {
+  height: 42px;
+  display: block;
+}
+
+.akeconsa-udaneles a img {
+  cursor: pointer;
+}
+
 /*Faq
 .faq {
     max-width: 500px;
