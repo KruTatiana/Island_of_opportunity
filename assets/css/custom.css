@@ -11977,17 +11977,71 @@ textarea.form-control-lg {
   }
 }
 .header-custom {
-  background-color: #FED34F;
+  background-color: #76c889;
+}
+
+.logo_container {
+  display: flex;
+  flex-direction: row;
+  padding: 2% 0;
 }
 
 .logo-image {
   height: 7vh;
-  background-color: rgba(134, 133, 133, 0.2);
-  border-radius: 10%;
+  margin-right: 5%;
+}
+
+.name_logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.name_logo1 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(3, 30, 106);
+  text-transform: uppercase;
+}
+
+.name_logo2 {
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: rgb(3, 30, 106);
+  text-transform: uppercase;
 }
 
 .nav-font-custom {
-  color: black;
+  color: rgb(3, 30, 106);
+}
+
+.phone_number {
+  display: flex;
+  height: 2.3rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 30, 106);
+  color: #FFFFFF;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+}
+
+.help_header {
+  display: flex;
+  height: 2.3rem;
+  justify-content: center;
+  align-items: center;
+  color: rgb(3, 30, 106);
+  font-weight: 500;
+  border: 2px solid rgb(3, 30, 106);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.burger-menu {
+  align-self: flex-start;
 }
 
 #menu__toggle {
@@ -11997,9 +12051,8 @@ textarea.form-control-lg {
 .menu__btn {
   display: flex;
   align-items: center;
-  position: fixed;
-  top: 20px;
-  left: 20px;
+  position: relative;
+  margin: 0 5% 5% 5%;
   width: 26px;
   height: 26px;
   cursor: pointer;
@@ -12128,10 +12181,12 @@ textarea.form-control-lg {
 .col-button__charity {
   background-color: #077D22;
   padding-top: 10rem;
+
 }
 
 .container-fluid__charity {
   background-color: #077D22;
+  margin-top: 10rem;
   font-size: 2rem;
   margin-bottom: 1rem;
 }

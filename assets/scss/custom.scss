@@ -13,6 +13,8 @@ $section5-2-color: #ADADAD;
 $section5-3-color: #A18430;
 $fond-color: #010101;
 $font-main-color: #FFFFFF;
+$header-color: #76c889;
+$font-logo-color: rgb(3, 30, 106);
 
 $screen-sm-min: 576px;
 // Small tablets (portrait view)
@@ -52,20 +54,78 @@ $screen-xl-min: 2400px;
 
 //Header
 .header-custom {
-    background-color: $section2-color;
+    background-color: $header-color;
+}
+
+.logo_container {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0;
 }
 
 .logo-image {
     height: 7vh;
-    background-color: rgb(134, 133, 133, 0.2);
-    border-radius: 10%;
+    margin-right: 5%;
+}
+
+.name_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.name_logo1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: $font-logo-color;
+    text-transform: uppercase;
+
+}
+
+.name_logo2 {
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: $font-logo-color;
+    text-transform: uppercase;
 }
 
 .nav-font-custom {
-    color: black;
+    color: $font-logo-color;
+}
+
+.phone_number {
+    display: flex;
+    //width: 150px;
+    height: 2.3rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: $font-logo-color;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+
+.help_header {
+    display: flex;
+    //width: 100px;
+    height: 2.3rem;
+    justify-content: center;
+    align-items: center;
+    color: $font-logo-color;
+    font-weight: 500;
+    border: 2px solid $font-logo-color;
+    border-radius: 10px;
+    background-color: transparent;
 }
 
 //Бургер-меню
+
+.burger-menu {
+    align-self: flex-start;
+
+}
 
 #menu__toggle {
     opacity: 0;
@@ -74,9 +134,8 @@ $screen-xl-min: 2400px;
 .menu__btn {
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 20px;
-    left: 20px;
+    position: relative;
+    margin: 0 5% 5% 5%;
     width: 26px;
     height: 26px;
     cursor: pointer;
@@ -239,8 +298,9 @@ $screen-xl-min: 2400px;
     font-size: 1rem;
 }
 
+
 @media screen and (max-width: $screen-lg-min) {
-    
+
     .col-button__charity {
         padding-top: 1rem;
     }
@@ -258,19 +318,19 @@ $screen-xl-min: 2400px;
 
 //Footer
 
-.footer{
+.footer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr;
 }
 
-.footer__block_image{
+.footer__block_image {
     height: 60vh;
     width: 90%;
 }
 
 
-.footer__block_navigation{
+.footer__block_navigation {
     display: grid;
     justify-content: center;
     align-content: center;
@@ -278,19 +338,19 @@ $screen-xl-min: 2400px;
 }
 
 
-.footer__copy{
+.footer__copy {
     display: grid;
     grid-template-columns: 1fr;
     background-color: #077D22;
     text-align: center;
 }
 
-a.footer__block_navigation1{
+a.footer__block_navigation1 {
     display: block;
     text-decoration: none;
     color: black;
 }
 
-a.footer__block_navigation1:hover{
+a.footer__block_navigation1:hover {
     text-decoration: underline;
 }
