@@ -12141,6 +12141,30 @@ textarea.form-control-lg {
   transition-duration: 0.25s;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.arrow-up {
+  width: 3.5vw;
+}
+
+.akeconsa-udaneles {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9;
+}
+
+.akeconsa-udaneles a {
+  height: 42px;
+  display: block;
+}
+
+.akeconsa-udaneles a img {
+  cursor: pointer;
+}
+
 /*Faq
 .faq {
     max-width: 500px;
@@ -12181,12 +12205,10 @@ textarea.form-control-lg {
 .col-button__charity {
   background-color: #077D22;
   padding-top: 10rem;
-
 }
 
 .container-fluid__charity {
   background-color: #077D22;
-  margin-top: 10rem;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
