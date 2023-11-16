@@ -12165,43 +12165,54 @@ html {
   cursor: pointer;
 }
 
-/*Faq
-.faq {
-    max-width: 500px;
-    margin: 10vw auto;
-  }
-.faq-item {
-    border: 1px solid rgb(170, 170, 229) ;
-
+.education-inessa,
+.education-inessa-1,
+.education-inessa-2 {
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.faq-text {
-    padding: 10px 15px;
-    display: none;
-    font-size: 2rem;
-  }
-.faq-title {
-    display: block;
-    cursor: pointer;
-    padding: 1vw 1vw;
 
-    transition: background .2s;
-    ease-out;
-  }
+.svidetelstvo-1,
+.svidetelstvo-2,
+.svidetelstvo-3,
+.svidetelstvo-4,
+.svidetelstvo-5,
+.svidetelstvo-6 {
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .faq-input {
-    width: 0;
-    height: 0;
-    -webkit-appearance: none ;
-    appearance: none;
-    position: absolute;
-  }
-  .faq-input:cheked + .faq-text {
-    display: block;
-  }
+.ystav-link {
+  font-size: 2rem;
+  float: center;
+}
 
-  .faq-title:hover {
-    background-color: bisque;
-  } */
+.ystav-1,
+.ystav-2,
+.ystav-3,
+.ystav-4,
+.ystav-5,
+.ystav-6,
+.ystav-7,
+.ystav-8 {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about {
+  padding-top: 1%;
+  background-image: url(../../img/integration-3527263_1280.jpg);
+}
+
+.about-img {
+  height: 40vh;
+}
+
 .col-button__charity {
   background-color: #077D22;
   padding-top: 6rem;
