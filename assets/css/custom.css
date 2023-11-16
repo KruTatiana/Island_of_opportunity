@@ -12145,6 +12145,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.arrow-up {
+  width: 3.5vw;
+}
+
 .akeconsa-udaneles {
   position: fixed;
   bottom: 28px;
@@ -12201,12 +12205,10 @@ html {
 .col-button__charity {
   background-color: #077D22;
   padding-top: 10rem;
-
 }
 
 .container-fluid__charity {
   background-color: #077D22;
-  margin-top: 10rem;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
