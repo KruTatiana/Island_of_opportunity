@@ -12165,10 +12165,6 @@ html {
   cursor: pointer;
 }
 
-.font-about {
-  color: rgb(3, 30, 106);
-}
-
 .education-inessa,
 .education-inessa-1,
 .education-inessa-2 {
@@ -12219,7 +12215,7 @@ html {
 
 .col-button__charity {
   background-color: #077D22;
-  padding-top: 6rem;
+  padding-top: 10rem;
 }
 
 .container-fluid__charity {
@@ -12235,7 +12231,7 @@ html {
 
 .col-text__charity {
   background-color: #077D22;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 1rem;
   color: #FFFFFF;
   margin-bottom: 1rem;
@@ -12256,7 +12252,6 @@ html {
   .btn-outline-light {
     padding-top: 1rem;
   }
-}
 }
 .footer {
   display: grid;
