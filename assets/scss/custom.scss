@@ -271,7 +271,9 @@ html {
 .font-about {
     color: $font-logo-color;
 }
-
+.text-about {
+    color: $font-logo-color;
+}
 
 .education-inessa,
 .education-inessa-1,
@@ -565,6 +567,7 @@ html {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr;
+    
 }
 
 .footer__block_navigation {
@@ -574,7 +577,6 @@ html {
     font-size: 1.5rem;
     background-color: gray;
 }
-
 
 .footer__copy {
     display: grid;
