@@ -583,7 +583,6 @@ html {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr;
-    margin-top: 1%;
 }
 
 .footer__block_navigation {
@@ -592,6 +591,8 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: gray;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 
