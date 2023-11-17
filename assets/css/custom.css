@@ -12262,6 +12262,11 @@ html {
   color: white;
 }
 
+.sotrudniki {
+  display: grid;
+  justify-content: center;
+}
+
 .title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
