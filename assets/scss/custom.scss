@@ -244,22 +244,22 @@ html {
 }
 
 .arrow-up {
-    width: 3.5vw;
+    width: 100%;
 }
 
 .akeconsa-udaneles {
     position: fixed;
-    bottom: 28px;
-    right: 28px;
+    bottom: 2%;
+    right: 2%;
     z-index: 9;
 }
 
-.akeconsa-udaneles a {
-    height: 42px;
+.akeconsa-udaneles__link {
     display: block;
+    max-width: 51px;
 }
 
-.akeconsa-udaneles a img {
+.arrow-up {
     cursor: pointer;
 }
 
@@ -598,7 +598,7 @@ a.footer__block_navigation1:hover {
     text-decoration: underline;
 }
 
-@media screen and (min-width: $screen-xl-min) {
+@media screen and (min-width: 2400px) {
     html {
         font-size: 28px;
     }
