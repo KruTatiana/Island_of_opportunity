@@ -296,7 +296,8 @@ html {
 
 .ystav-link {
     font-size: 2rem;
-    float: center;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 .ystav-1,
@@ -307,9 +308,9 @@ html {
 .ystav-6,
 .ystav-7,
 .ystav-8 {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 #about {
