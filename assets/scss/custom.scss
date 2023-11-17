@@ -1,26 +1,32 @@
 // Custom.scss
-@import "../bootstrap/scss/bootstrap";
-
+@import "../bootstrap/scss/_bootstrap";
 // 1. Подключение функций Bootstrap (so you can manipulate colors, SVGs, calc, etc)
 //@import "../bootstrap/scss/functions";
-
-
 // 2. Наши переменные
-
-
-
-
+$section2-color: #FED34F;
+$section3-color: #077D22;
+$section5-color: #42413E;
+$section5-2-color: #ADADAD;
+$section5-3-color: #A18430;
+$fond-color: #010101;
+$font-main-color: #FFFFFF;
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+// Large desctops
+$screen-xl-min: 2400px;
 // 3. Подключение необходимых таблиц стилей Bootstrap. (including any separate color mode stylesheets)
 //@import "../bootstrap/scss/variables";
 //@import "..//bootstrap/scss/variables-dark";
-
 // 4. Наши переопределения maps, заданых по умолчанию.
-
 // 5. Подключение необходимых деталей Bootstrap 
 //@import "../bootstrap/scss/maps";
 //@import "../bootstrap/scss/mixins";
 //@import "../bootstrap/scss/root";
-
 // 6. Не обязательные детали Bootstrap.
 //@import "../bootstrap/scss/utilities";
 // @import "../bootstrap/scss/reboot";
@@ -29,23 +35,359 @@
 // @import "../bootstrap/scss/containers";
 // @import "../bootstrap/scss/grid";
 // @import "../bootstrap/scss/helpers";
-
 // 7. Не обязательная API утилита для создания классов на основе карты Sass в `_utilities.scss`
 // @import "../bootstrap/scss/utilities/api";
-
 // 8. Наш код здесь
-
-
 //Header
-
+.header-custom {
+    background-color: $section2-color;
+}
+.logo-image {
+    height: 7vh;
+    background-color: rgb(134, 133, 133, 0.2);
+    border-radius: 10%;
+}
+.nav-font-custom {
+    color: black;
+}
+//Бургер-меню
+#menu__toggle {
+    opacity: 0;
+}
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu__btn-line,
+.menu__btn-line::before,
+.menu__btn-line::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+}
+.menu__btn-line::before {
+    content: '';
+    top: -8px;
+}
+.menu__btn-line::after {
+    content: '';
+    top: 8px;
+}
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu__item:hover {
+    background-color: #cfd8dc;
+}
+#menu__toggle:checked~.menu__btn>.menu__btn-line {
+    transform: rotate(45deg);
+}
+#menu__toggle:checked~.menu__btn>.menu__btn-line::before {
+    top: 0;
+    transform: rotate(0);
+}
+#menu__toggle:checked~.menu__btn>.menu__btn-line::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#menu__toggle:checked~.menu__box {
+    visibility: visible;
+    left: 0;
+}
+.menu__btn-line,
+.menu__btn-line::before,
+.menu__btn-line::after {
+    transition-duration: .25s;
+}
+.menu__box {
+    transition-duration: .25s;
+}
+.menu__item {
+    transition-duration: .25s;
+}
 //Main
 
 //About
+/*Faq
+.faq {
+    max-width: 500px;
+    margin: 10vw auto;
+  }
+.faq-item {
+    border: 1px solid rgb(170, 170, 229) ;
+    
+}
+.faq-text {
+    padding: 10px 15px;
+    display: none;
+    font-size: 2rem;
+  }
+.faq-title {
+    display: block;
+    cursor: pointer;
+    padding: 1vw 1vw;
+    transition: background .2s;
+    ease-out;
+  }
+  .faq-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none ;
+    appearance: none;
+    position: absolute;
+  }
+  .faq-input:cheked + .faq-text {
+    display: block;
+  }
+  .faq-title:hover {
+    background-color: bisque;
+  } */
 
 //Charity
-
+.col-button__charity {
+    background-color: $section3-color;
+}
+.container-fluid__charity {
+    background-color: $section3-color;
+    margin-top: 10rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.btn-primary {
+    font-size: 2rem;
+    background-color: $section5-color;
+    size: 100%
+}
+.col-text__charity {
+    background-color: $section3-color;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: $font-main-color;
+    margin-bottom: 1rem;
+}
+.container-fluid__charity {
+    background-color: $section3-color;
+}
+@media screen and (max-width: $screen-md-min) {
+    
+    .col-button__charity {
+        margin-top: 1rem;
+    }
+}
 //Employees
-
 //Programs
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: black;
+    }
 
-//Footer
+    .cards_grid {
+    display: grid;
+    position: absolute;
+    gap: 2px;
+    width: 100vw;
+    grid-template-columns: repeat(5, 350px);
+    grid-template-rows: repeat(2, 250px);
+    justify-content: center;
+    align-items: center;
+    }
+
+    .card_reboot_button {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #FED34F;
+        font-family: Arial, Helvetica, sans-serif ;
+        color: blue;
+        font-size: 1.5rem;
+        
+    }
+        
+    .card_presence_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #ADADAD;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        font-size: 1.5em;
+    }
+    
+    .card_camps_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #077D22;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        font-size: 1.5rem;
+        text-align: center;
+    
+    }
+
+    .card_management_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #EDFDFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        color: blue;
+        text-align: center;
+    }
+
+    .card_consultation_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #A18430;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        color: blue;
+        text-align: center;
+    }
+
+    .card_therapy_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #077D22;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        color: blue;
+        text-align: center;
+    }
+
+    .card_prevention_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #EDFDFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        color: blue;
+        text-align: center;
+    }
+    
+    .card_support_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #E9B730;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        color: blue;
+        text-align: center;
+    }
+    .card_courses_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #ADADAD;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        color: blue;
+        text-align: center;
+    }
+
+    .card_webinars_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        background-color: #76B58B;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        color: blue;
+        text-align: center;
+    }
+    @media (max-width: 490px) {
+        .cards_grid {
+            grid-template-columns: repeat(1, 250px);
+            grid-template-rows: repeat(10, 250px);
+            grid-template-areas: 
+            "reboot"
+            "presence"
+            "camps"
+            "management"
+            "conultation"
+            "therapy"
+            "prevention"
+            "suport"
+            "courses"
+            "webinars" ;
+            }
+    }
+    @media (max-width: 820px){
+        .cards_grid {
+            grid-template-columns: repeat(2, 250px);
+            grid-template-rows: repeat(8, 250px);
+            grid-template-areas: 
+            "reboot" "presence"
+            "camps" "management"
+            "consultation" "therapy"
+            "prevention" "support"
+            "courses" "webinars";
+        }
+    } 
+        
+        
+    
+
+
+
+
+
+
+
+
