@@ -369,6 +369,16 @@ html {
 
 
 //Employees
+.link_button {
+    text-decoration: none;
+    color: white;
+}
+
+.sotrudniki {
+    display: grid;
+    justify-content: center;
+}
+
 //Programs
 .title {
     font-family: Arial, Helvetica, sans-serif;
