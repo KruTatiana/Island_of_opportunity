@@ -384,7 +384,17 @@ html {
     justify-content: center;
 }
 
+.header-sotrudniki {
+    color: $font-logo-color;
+}
+
 //Programs
+
+.text-title {
+    color: $font-logo-color;
+}
+
+
 .title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -564,6 +574,10 @@ html {
 }
 
 //Footer
+
+.footer__year {
+    color: $font-logo-color;
+}
 
 .footer {
     display: grid;

@@ -12286,6 +12286,14 @@ html {
   justify-content: center;
 }
 
+.header-sotrudniki {
+  color: rgb(3, 30, 106);
+}
+
+.text-title {
+  color: rgb(3, 30, 106);
+}
+
 .title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
@@ -12445,6 +12453,10 @@ html {
     grid-template-areas: "reboot" "presence" "camps" "management" "consultation" "therapy" "prevention" "support" "courses" "webinars";
   }
 }
+.footer__year {
+  color: rgb(3, 30, 106);
+}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
