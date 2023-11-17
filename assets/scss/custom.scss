@@ -237,35 +237,6 @@ $screen-xl-min: 2400px;
     transition-duration: .25s;
 }
 
-//Кнопка наверх
-
-html {
-    scroll-behavior: smooth;
-}
-
-.arrow-up {
-    width: 100%;
-}
-
-.akeconsa-udaneles {
-    position: fixed;
-    bottom: 2%;
-    right: 2%;
-    z-index: 9;
-}
-
-.akeconsa-udaneles__link {
-    display: block;
-    max-width: 51px;
-}
-
-.arrow-up {
-    cursor: pointer;
-}
-
-//Main
-
-
 //About
 
 .font-about {
