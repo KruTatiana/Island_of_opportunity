@@ -350,6 +350,10 @@ html {
     margin-bottom: 1rem;
 }
 
+.container-fluid__charity {
+    background-color: $section3-color;
+}
+
 .modal-text {
     font-size: 1rem;
 }
@@ -579,6 +583,7 @@ html {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr;
+    margin-top: 1%;
 }
 
 .footer__block_navigation {
