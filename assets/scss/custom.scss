@@ -352,6 +352,10 @@ html {
     margin-bottom: 1rem;
 }
 
+.container-fluid__charity {
+    background-color: $section3-color;
+}
+
 .modal-text {
     font-size: 1rem;
 }
@@ -382,7 +386,17 @@ html {
     justify-content: center;
 }
 
+.header-sotrudniki {
+    color: $font-logo-color;
+}
+
 //Programs
+
+.text-title {
+    color: $font-logo-color;
+}
+
+
 .title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -563,11 +577,15 @@ html {
 
 //Footer
 
+.footer__year {
+    color: $font-logo-color;
+}
+
 .footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr;
-    
+    margin-top: 1%;
 }
 
 .footer__block_navigation {

@@ -13732,6 +13732,10 @@ html {
   margin-bottom: 1rem;
 }
 
+.container-fluid__charity {
+  background-color: #077D22;
+}
+
 .modal-text {
   font-size: 1rem;
 }
@@ -13754,6 +13758,14 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.header-sotrudniki {
+  color: rgb(3, 30, 106);
+}
+
+.text-title {
+  color: rgb(3, 30, 106);
 }
 
 .title {
@@ -13979,10 +13991,15 @@ html {
     grid-template-areas: "reboot" "presence" "camps" "management" "consultation" "therapy" "prevention" "support" "courses" "webinars";
   }
 }
+.footer__year {
+  color: rgb(3, 30, 106);
+}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: 1fr;
+  margin-top: 1%;
 }
 
 .footer__block_navigation {
