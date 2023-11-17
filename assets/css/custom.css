@@ -13625,30 +13625,6 @@ textarea.form-control-lg {
           transition-duration: 0.25s;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-.arrow-up {
-  width: 100%;
-}
-
-.akeconsa-udaneles {
-  position: fixed;
-  bottom: 2%;
-  right: 2%;
-  z-index: 9;
-}
-
-.akeconsa-udaneles__link {
-  display: block;
-  max-width: 51px;
-}
-
-.arrow-up {
-  cursor: pointer;
-}
-
 .font-about {
   color: rgb(3, 30, 106);
 }
@@ -13748,6 +13724,10 @@ html {
     padding-top: 1rem;
   }
 }
+#employees {
+  margin-bottom: 2%;
+}
+
 .link_button {
   text-decoration: none;
   color: white;
@@ -13755,6 +13735,9 @@ html {
 
 .sotrudniki {
   display: grid;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
