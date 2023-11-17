@@ -567,17 +567,12 @@ html {
     grid-template-rows: 1fr;
 }
 
-.footer__block_image {
-    height: 60vh;
-    width: 90%;
-}
-
-
 .footer__block_navigation {
     display: grid;
-    justify-content: center;
-    align-content: center;
-    font-size: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: gray;
 }
 
 
@@ -588,10 +583,11 @@ html {
     text-align: center;
 }
 
+
 a.footer__block_navigation1 {
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a.footer__block_navigation1:hover {
