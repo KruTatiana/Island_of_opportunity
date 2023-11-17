@@ -3,22 +3,10 @@
 // 1. Подключение функций Bootstrap (so you can manipulate colors, SVGs, calc, etc)
 //@import "../bootstrap/scss/functions";
 // 2. Наши переменные
-$section2-color: #FED34F;
-$section3-color: #077D22;
-$section5-color: #42413E;
-$section5-2-color: #ADADAD;
-$section5-3-color: #A18430;
-$fond-color: #010101;
-$font-main-color: #FFFFFF;
-$screen-sm-min: 576px;
-// Small tablets (portrait view)
-$screen-md-min: 768px;
-// Tablets and small desktops
-$screen-lg-min: 992px;
-// Large tablets and desktops
-$screen-xl-min: 1200px;
-// Large desctops
-$screen-xl-min: 2400px;
+
+
+
+
 // 3. Подключение необходимых таблиц стилей Bootstrap. (including any separate color mode stylesheets)
 //@import "../bootstrap/scss/variables";
 //@import "..//bootstrap/scss/variables-dark";
@@ -38,171 +26,117 @@ $screen-xl-min: 2400px;
 // 7. Не обязательная API утилита для создания классов на основе карты Sass в `_utilities.scss`
 // @import "../bootstrap/scss/utilities/api";
 // 8. Наш код здесь
+
+
 //Header
-.header-custom {
-    background-color: $section2-color;
-}
-.logo-image {
-    height: 7vh;
-    background-color: rgb(134, 133, 133, 0.2);
-    border-radius: 10%;
-}
-.nav-font-custom {
-    color: black;
-}
-//Бургер-меню
-#menu__toggle {
-    opacity: 0;
-}
-.menu__btn {
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 26px;
-    height: 26px;
-    cursor: pointer;
-    z-index: 1;
-}
-.menu__btn-line,
-.menu__btn-line::before,
-.menu__btn-line::after {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #616161;
-}
-.menu__btn-line::before {
-    content: '';
-    top: -8px;
-}
-.menu__btn-line::after {
-    content: '';
-    top: 8px;
-}
-.menu__box {
-    display: block;
-    position: fixed;
-    visibility: hidden;
-    top: 0;
-    left: -100%;
-    width: 300px;
-    height: 100%;
-    margin: 0;
-    padding: 80px 0;
-    list-style: none;
-    text-align: center;
-    background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-}
-.menu__item {
-    display: block;
-    padding: 12px 24px;
-    color: #333;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-}
-.menu__item:hover {
-    background-color: #cfd8dc;
-}
-#menu__toggle:checked~.menu__btn>.menu__btn-line {
-    transform: rotate(45deg);
-}
-#menu__toggle:checked~.menu__btn>.menu__btn-line::before {
-    top: 0;
-    transform: rotate(0);
-}
-#menu__toggle:checked~.menu__btn>.menu__btn-line::after {
-    top: 0;
-    transform: rotate(90deg);
-}
-#menu__toggle:checked~.menu__box {
-    visibility: visible;
-    left: 0;
-}
-.menu__btn-line,
-.menu__btn-line::before,
-.menu__btn-line::after {
-    transition-duration: .25s;
-}
-.menu__box {
-    transition-duration: .25s;
-}
-.menu__item {
-    transition-duration: .25s;
-}
+
 //Main
 
+
 //About
-/*Faq
-.faq {
-    max-width: 500px;
-    margin: 10vw auto;
-  }
-.faq-item {
-    border: 1px solid rgb(170, 170, 229) ;
-    
+
+.font-about {
+    color: $font-logo-color;
 }
-.faq-text {
-    padding: 10px 15px;
-    display: none;
+
+
+.education-inessa,
+.education-inessa-1,
+.education-inessa-2 {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.svidetelstvo-1,
+.svidetelstvo-2,
+.svidetelstvo-3,
+.svidetelstvo-4,
+.svidetelstvo-5,
+.svidetelstvo-6 {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ystav-link {
     font-size: 2rem;
-  }
-.faq-title {
-    display: block;
-    cursor: pointer;
-    padding: 1vw 1vw;
-    transition: background .2s;
-    ease-out;
-  }
-  .faq-input {
-    width: 0;
-    height: 0;
-    -webkit-appearance: none ;
-    appearance: none;
-    position: absolute;
-  }
-  .faq-input:cheked + .faq-text {
-    display: block;
-  }
-  .faq-title:hover {
-    background-color: bisque;
-  } */
+    float: center;
+}
+
+.ystav-1,
+.ystav-2,
+.ystav-3,
+.ystav-4,
+.ystav-5,
+.ystav-6,
+.ystav-7,
+.ystav-8 {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+    padding-top: 1%;
+    background-image: url(../../img/integration-3527263_1280.jpg);
+}
+
+.about-img {
+    height: 40vh;
+}
+
 
 //Charity
 .col-button__charity {
     background-color: $section3-color;
+    padding-top: 6rem;
 }
+
 .container-fluid__charity {
     background-color: $section3-color;
-    margin-top: 10rem;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-.btn-primary {
-    font-size: 2rem;
-    background-color: $section5-color;
-    size: 100%
+
+.btn-outline-light {
+    font-size: 3rem;
+    border-radius: 25% 10%;
 }
+
 .col-text__charity {
     background-color: $section3-color;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
     color: $font-main-color;
     margin-bottom: 1rem;
 }
+
 .container-fluid__charity {
     background-color: $section3-color;
 }
-@media screen and (max-width: $screen-md-min) {
-    
+
+.modal-text {
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width: $screen-lg-min) {
+
     .col-button__charity {
-        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    .btn-outline-light {
+        padding-top: 1rem;
     }
 }
+
+//510-1210
+
+
 //Employees
 //Programs
 .title {
@@ -391,3 +325,41 @@ $screen-xl-min: 2400px;
 
 
 
+//Footer
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+}
+
+.footer__block_image {
+    height: 60vh;
+    width: 90%;
+}
+
+
+.footer__block_navigation {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+}
+
+
+.footer__copy {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #077D22;
+    text-align: center;
+}
+
+a.footer__block_navigation1 {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+a.footer__block_navigation1:hover {
+    text-decoration: underline;
+}
