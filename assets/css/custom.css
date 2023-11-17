@@ -12473,4 +12473,22 @@ a.footer__block_navigation1 {
 
 a.footer__block_navigation1:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 2400px) {
+  html {
+    font-size: 28px;
+  }
+  .container {
+    max-width: 75%;
+  }
+  .phone_number {
+    max-width: 15%;
+  }
+  .help_header {
+    max-width: 10%;
+  }
+  .logo_container {
+    max-width: 15%;
+  }
 }/*# sourceMappingURL=custom.css.map */
