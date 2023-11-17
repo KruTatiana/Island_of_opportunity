@@ -12252,6 +12252,10 @@ textarea.form-control-lg {
     padding-top: 1rem;
   }
 }
+#employees {
+  margin-bottom: 2%;
+}
+
 .link_button {
   text-decoration: none;
   color: white;
@@ -12260,6 +12264,8 @@ textarea.form-control-lg {
 .sotrudniki {
   display: grid;
   justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .header-sotrudniki {
