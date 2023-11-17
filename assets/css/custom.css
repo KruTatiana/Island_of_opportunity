@@ -11980,10 +11980,14 @@ textarea.form-control-lg {
   background-color: #76c889;
 }
 
+.container-fluid__header {
+  max-width: 85%;
+}
+
 .logo_container {
   display: flex;
-  flex-direction: row;
-  padding: 2% 0;
+  flex-direction: column;
+  padding: 1% 0;
 }
 
 .logo-image {
@@ -11997,14 +12001,14 @@ textarea.form-control-lg {
 }
 
 .name_logo1 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: rgb(3, 30, 106);
   text-transform: uppercase;
 }
 
 .name_logo2 {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 500;
   color: rgb(3, 30, 106);
   text-transform: uppercase;
@@ -12012,29 +12016,40 @@ textarea.form-control-lg {
 
 .nav-font-custom {
   color: rgb(3, 30, 106);
+  font-size: 1.5rem;
 }
 
 .phone_number {
   display: flex;
-  height: 2.3rem;
+  height: 3rem;
   margin-top: 2%;
   margin-bottom: 2%;
   justify-content: center;
   align-items: center;
   background-color: rgb(3, 30, 106);
   color: #FFFFFF;
+  font-size: 1.5rem;
   font-weight: 500;
   border: none;
   border-radius: 10px;
 }
 
+.phone_number:hover {
+  color: #76c889;
+}
+
+.help_header:hover {
+  background-color: #FFFFFF;
+}
+
 .help_header {
   display: flex;
-  height: 2.3rem;
+  height: 3rem;
   justify-content: center;
   align-items: center;
   color: rgb(3, 30, 106);
   font-weight: 500;
+  font-size: 1.5rem;
   border: 2px solid rgb(3, 30, 106);
   border-radius: 10px;
   background-color: transparent;
@@ -12056,7 +12071,7 @@ textarea.form-control-lg {
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 120;
 }
 
 .menu__btn-line,
@@ -12093,13 +12108,14 @@ textarea.form-control-lg {
   text-align: center;
   background-color: #ECEFF1;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  z-index: 100;
 }
 
 .menu__item {
   display: block;
   padding: 12px 24px;
   color: #333;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   text-decoration: none;
 }
@@ -12211,6 +12227,8 @@ html {
 #about {
   padding-top: 1%;
   background-image: url(../../img/integration-3527263_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-img {
@@ -12239,10 +12257,6 @@ html {
   margin-top: 1rem;
   color: #FFFFFF;
   margin-bottom: 1rem;
-}
-
-.container-fluid__charity {
-  background-color: #077D22;
 }
 
 .modal-text {
@@ -12305,7 +12319,7 @@ html {
   background-color: #ADADAD;
   font-family: Arial, Helvetica, sans-serif;
   color: blue;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .card_camps_button {
@@ -12459,4 +12473,22 @@ a.footer__block_navigation1 {
 
 a.footer__block_navigation1:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 2400px) {
+  html {
+    font-size: 28px;
+  }
+  .container {
+    max-width: 75%;
+  }
+  .phone_number {
+    max-width: 15%;
+  }
+  .help_header {
+    max-width: 10%;
+  }
+  .logo_container {
+    max-width: 15%;
+  }
 }/*# sourceMappingURL=custom.css.map */
