@@ -95,7 +95,7 @@
 ## Демонстрация 
 <br />
 <br />
-<i>Desctop версия</i>
+<i>Desktop версия</i>
   <br />
   <br />
   <img src="./assets/gif/Demo_big-screen.gif" alt="gif" width="1000" >
