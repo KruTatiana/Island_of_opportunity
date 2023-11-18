@@ -12286,9 +12286,12 @@ textarea.form-control-lg {
 
 .text-title {
   color: rgb(3, 30, 106);
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 1%;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: black;
 }
 
 .cards_grid {
