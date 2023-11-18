@@ -1,5 +1,4 @@
 # Island_of_opportunity
-The website for a social project 'Island of opportunity
 
 <a name="readme-top"></a>
 
@@ -13,11 +12,11 @@ The website for a social project 'Island of opportunity
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Archik-K/Training-card">
-    <img src="./assets/images/logo.png" alt="Logo" width="100" height="80">
+  <a href="https://github.com/KruTatiana/Island_of_opportunity">
+    <img src="./assets/img/NKO_Logo.png" alt="Logo" width="100" height="80">
   </a>
 
-  <h3 align="center">Study for save</h3>
+  <h3 align="center">Остров возможностей</h3>
 
   <p align="center">
     Твоя позитивная мотивация пройти курс до конца
