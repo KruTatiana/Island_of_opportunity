@@ -520,10 +520,10 @@ $screen-xl-min: 2400px;
 }
 
 @media (max-width: 490px) {
-    .cards_grid {
+    .cards_grid { 
         grid-template-columns: repeat(1, 250px);
         grid-template-rows: repeat(10, 250px);
-        grid-template-areas:
+        grid-template-areas: 
             "reboot"
             "presence"
             "camps"
@@ -534,6 +534,7 @@ $screen-xl-min: 2400px;
             "suport"
             "courses"
             "webinars";
+        max-width: 100%;
     }
 }
 
