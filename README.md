@@ -1,11 +1,10 @@
 # Island_of_opportunity
-The website for a social project 'Island of opportunity
 
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
+[![Stargazers][stars-shield]][stars-url] -->
 
 
 
@@ -13,20 +12,12 @@ The website for a social project 'Island of opportunity
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Archik-K/Training-card">
-    <img src="./assets/images/logo.png" alt="Logo" width="100" height="80">
+  <a href="https://github.com/KruTatiana/Island_of_opportunity">
+    <img src="./assets/img/NKO_Logo.png" alt="Logo" width="100" height="80">
   </a>
 
-  <h3 align="center">Study for save</h3>
+  <h3 align="center">Остров возможностей</h3>
 
-  <p align="center">
-    Твоя позитивная мотивация пройти курс до конца
-    <br />
-    <a href="https://archik-k.github.io/Training-card/"><strong>Explore GitHub Pages »</strong></a>
-    <br />
-    <br />
-  </p>
-</div>
 
 
 
@@ -37,6 +28,9 @@ The website for a social project 'Island of opportunity
     <li>
       <a href="#о-проекте">О проекте</a>
       <ul>
+        <li><a href="#наши-решения">Наши решения</a></li>
+        <li><a href="#что-было-сделано">Что было сделано</a></li>
+        <li><a href="#что-можно-доработать">Что можно доработать</a></li>
         <li><a href="#инструменты">Инструменты</a></li>
       </ul>
     </li>
@@ -50,28 +44,28 @@ The website for a social project 'Island of opportunity
 <!-- ABOUT THE PROJECT -->
 ## О проекте
 
-![][product-screenshot]
 
-Этот проект был выполнен для хакатона ITGirls School 28.10.2023
+Этот проект был выполнен в качестве учебного проекта по верстке сайта в условиях взаимодействия с заказчиком НКО "Остров возможностей".
 
-Идея проекта:
-* Как показывают исследования, показатель COR (Completion Rate) длительных онлайн курсов достаточно низкий. Бесплатные курсы успешно проходят до конца не более 13% студентов, но чаще этот показатель не превышает 4-5%, платные курсы без дополнительного сопровождения оканчивают не более 45%, с сопровождением - не более 80%. 
-* Студенты бросают курс или откладывают обучение из-за недостатка мотивации.
-* Этот проект был вдохновлён идеей помочь тем, кому сложно учиться, через мотивацию заботы о животных.
-* Мы предлагаем ученикам онлайн курсов подключить пожертвование приюту для животных (из числа партнёров проекта) и выполнять задания курса для выполнения переводов пожертвований.
-* Для получения обратной связи, мы предлагаем пользователю подписаться на рассылку с новостями наших партнёров.
-* Так же возможно добавление во всплывающие окна при прохождении блока обучения и всего курса  фото и видео с питомцами из приютов для дополнительной моральной мотивации.
+### Наши решения:
+* Был суммирован пользовательский опыт участников команды и предложен простой макет понятный в использовании и легко адаптируемый под экраны различных размеров. 
+* Для ускорения разработки а так же улучшения адаптивности и кроссбраузерности мы использовали фреймворк Bootstrap5.
+* Для возможности использования переменных стилей фреймворк Bootstrap5 был подключен через файл препроцессора Sass.
+* Анимация, плавный переход и модальное окно обеспечены JS скриптами Bootstrap5.
+* Добавлены брейкпойнты для улучшения адаптивности.
+* Обеспечена адаптивность шрифта через переопределение базового шрифта.
 
-Что было сделано:
-* Разработан общий дизайн внешнего вида с подбором цветовой гаммы. шрифтов, расположениями блоков и надписей.
-* Создан прототип карты прохождения обучения с модальным окном для заполнения прогресса обучения.
-* На данном этапе проект представляет из себя концепцию с рабочими блоками для демонстрации.
+### Что было сделано:
+* Разработан общий дизайн внешнего вида с подбором цветовой гаммы, расположениями блоков и надписей.
+* Созданы заготовки для всех разделов, куда можно добавить контент.
+* Обеспечена адаптивность для большинства моделей устройств из средств разработчика Google.
+* Обеспечена стабильная работа в самых популярных браузерах.
 
-Что можно доработать:
-* Карта прохождения курса является динамическим объектом и может быть дополнена новыми пунктами при необходимости.
-* Добавление мотивационных фото и видео, всплывающих при прохождении пользователем заданий, блоков, всего курса.
-* Доработка кода для обеспечения кроссбраузерности сайта.
-* Доработка кода для обеспечения адаптивности сайта на различных устройствах.
+### Что можно доработать:
+* Добавить контент в заготовки страниц.
+* Добавить элемменты дизайна на страницы сотрудников и курсов.
+* Добавить бекэнд для улучшения функционирования сайта и кросспостинга
+* Оптимизировать пакет сборки Bootstrap5 для ускорения рендера страницы.
 
 
 
@@ -79,15 +73,15 @@ The website for a social project 'Island of opportunity
 
 
 
-### Инструменты
+## Инструменты
 
 В этом проекте мы использовали:
 <br />
 <div align="center">
-    <img src="./assets/images/readme_img/HTML5_logo_and_wordmark.svg" alt="HTML5" width="100" height="90">
-    <img src="./assets/images/readme_img/CSS3_logo_and_wordmark.svg" alt="CSS3" width="100" height="90">
-    <img src="./assets/images/readme_img/Javascript-shield.svg" alt="JS" width="100" height="90">
-    <img src="./assets/images/readme_img/bootstrap-5-1.svg" alt="JS" width="100" height="70">
+    <img src="./assets/img/HTML5_logo_and_wordmark.svg" alt="HTML5" width="100" height="90">
+    <img src="./assets/img/CSS3_logo_and_wordmark.svg" alt="CSS3" width="100" height="90">
+    <img src="./assets/img/Sass_Logo_Color.svg" alt="JS" width="100" height="90">
+    <img src="./assets/img/bootstrap-5-1.svg" alt="JS" width="100" height="70">
 </div>
 
 
@@ -100,39 +94,27 @@ The website for a social project 'Island of opportunity
 <br />
 <br />
 <div align="left">
-<i>Страница регистрации пользователя</i>
+<i>Desctop версия</i>
   <br />
   <br />
-    <img src="./assets/images/readme_img/screenshot1.png" alt="screenshot" width="1000" >
+    <img src="./assets/gif/Demo_big-screen.gif" alt="screenshot" width="1000" >
     <br />
     <br />
     <br />
     <br />
-<i>Страница выбора онлайн курса</i>
+<i>Tablet версия</i>
   <br />
   <br />
-    <img src="./assets/images/readme_img/screenshot2.png" alt="screenshot" width="1000">
+    <img src="./assets/gif/Demo_iPadAir.gif" alt="screenshot" width="1000">
     <br />
     <br />
     <br />
     <br />
-<i>Страница с картой прохождения курса</i>
+<i>Mobile версия</i>
   <br />
   <br />
-    <img src="./assets/images/readme_img/screenshot3.png" alt="screenshot" width="1000" >
-    <br />
-    <br />
-    <br />
-    <br />
-<i>Модальное окно с прогрессом выполнения заданий</i>
-  <br />
-  <br />
-    <img src="./assets/images/readme_img/screenshot4.png" alt="screenshot" width="1000" >
+    <img src="./assets/gif/Demo_iPhone.gif" alt="screenshot" width="1000" >
 </div>
-
-Вы можете получить опыт использования сайта по ссылке 
-<a href="https://archik-k.github.io/Training-card/">Study for save
-  </a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -140,17 +122,19 @@ The website for a social project 'Island of opportunity
 <!-- CONTACT -->
 ## Наша команда
 
-Ася - [GitHub](https://github.com/Archik-K)
+Надежда - [GitHub](https://github.com/NadezhdaGi)
 
-Ирина - [GitHub](https://github.com/eireensid)
-
-Анна - [GitHub](https://github.com/HannaTsilikina)
-
-Ирина - [GitHub](https://github.com/BarhatovaIrina)
-
-Алёна - [GitHub](https://github.com/bearcubbb)
+Анастасия - [GitHub](https://github.com/AnastasiaRueb)
 
 Татьяна - [GitHub](https://github.com/KruTatiana)
+
+Елена - [GitHub](https://github.com/lenusya8121)
+
+Вера - [GitHub](https://github.com/Kururpira)
+
+Ася - [GitHub](https://github.com/esasya)
+
+Project Link: [https://github.com/KruTatiana/Island_of_opportunity](https://github.com/KruTatiana/Island_of_opportunity)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
