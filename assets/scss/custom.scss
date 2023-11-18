@@ -378,21 +378,17 @@ $screen-xl-min: 2400px;
 //Programs
 .text-title {
     color: $font-logo-color;
-}
-
-
-.title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    color: black;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 .cards_grid {
     display: grid;
     gap: 2px;
-    width: 100vw;
-    grid-template-columns: repeat(5, 350px);
-    grid-template-rows: repeat(2, 250px);
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
 }
@@ -405,10 +401,9 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #FED34F;
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: $font-logo-color;
     font-size: 1.5rem;
-
+    text-decoration: none;
 }
 
 .card_presence_button {
@@ -418,9 +413,9 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #ADADAD;
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: $font-logo-color;
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .card_camps_button {
@@ -430,11 +425,10 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #077D22;
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: $font-logo-color;
     font-size: 1.5rem;
     text-align: center;
-
+    text-decoration: none;
 }
 
 .card_management_button {
@@ -444,10 +438,10 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #EDFDFF;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: blue;
+    color: $font-logo-color;
     text-align: center;
+    text-decoration: none;
 }
 
 .card_consultation_button {
@@ -457,10 +451,10 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #A18430;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: blue;
+    color: $font-logo-color;
     text-align: center;
+    text-decoration: none;
 }
 
 .card_therapy_button {
@@ -470,10 +464,10 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #077D22;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: blue;
+    color: $font-logo-color;
     text-align: center;
+    text-decoration: none;
 }
 
 .card_prevention_button {
@@ -483,10 +477,10 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #EDFDFF;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: blue;
+    color: $font-logo-color;
     text-align: center;
+    text-decoration: none;
 }
 
 .card_support_button {
@@ -496,10 +490,10 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #E9B730;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: blue;
+    color: $font-logo-color;
     text-align: center;
+    text-decoration: none;
 }
 
 .card_courses_button {
@@ -509,10 +503,10 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #ADADAD;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: blue;
+    color: $font-logo-color;
     text-align: center;
+    text-decoration: none;
 }
 
 .card_webinars_button {
@@ -522,10 +516,84 @@ $screen-xl-min: 2400px;
     width: 100%;
     height: 250px;
     background-color: #76B58B;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: blue;
+    color: $font-logo-color;
     text-align: center;
+    text-decoration: none;
+}
+
+// .card_reboot {
+//     grid-area: reboot;
+// }
+
+// .card_presence {
+//     grid-area: presence;
+// }
+
+// .card_camps {
+//     grid-area: camps;
+// }
+
+// .card_management {
+//     grid-area: management;
+// }
+
+// .card_consultation {
+//     grid-area: consultation;
+// }
+
+// .card_therapy {
+//     grid-area: therapy;
+// }
+
+// .card_prevention {
+//     grid-area: prevention;
+// }
+
+// .card_support {
+//     grid-area: support;
+// }
+
+// .card_courses {
+//     grid-area: courses;
+// }
+
+// .card_webinars {
+//     grid-area: webinars;
+// }
+
+@media screen and (max-width: 490px) {
+    .cards_grid {
+        width: 100%;
+        gap: 0;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(10, 1fr);
+        // grid-template-areas:
+        //     "reboot"
+        //     "presence"
+        //     "camps"
+        //     "management"
+        //     "conultation"
+        //     "therapy"
+        //     "prevention"
+        //     "suport"
+        //     "courses"
+        //     "webinars";
+    }
+}
+
+@media screen and (min-width:491px) and (max-width: 820px) {
+    .cards_grid {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        // grid-template-areas:
+        //     "reboot presence"
+        //     "camps management"
+        //     "consultation therapy"
+        //     "prevention support"
+        //     "courses webinars";
+    }
 }
 
 @media (max-width: 490px) {
