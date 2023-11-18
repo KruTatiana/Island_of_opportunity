@@ -611,7 +611,8 @@ $screen-xl-min: 2400px;
             "suport"
             "courses"
             "webinars";
-            }
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 820px) {
