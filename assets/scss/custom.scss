@@ -596,38 +596,6 @@ $screen-xl-min: 2400px;
     }
 }
 
-@media (max-width: 490px) {
-    .cards_grid { 
-        grid-template-columns: repeat(1, 250px);
-        grid-template-rows: repeat(10, 250px);
-        grid-template-areas: 
-            "reboot"
-            "presence"
-            "camps"
-            "management"
-            "conultation"
-            "therapy"
-            "prevention"
-            "suport"
-            "courses"
-            "webinars";
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 820px) {
-    .cards_grid {
-        grid-template-columns: repeat(2, 250px);
-        grid-template-rows: repeat(8, 250px);
-        grid-template-areas:
-            "reboot" "presence"
-            "camps" "management"
-            "consultation" "therapy"
-            "prevention" "support"
-            "courses" "webinars";
-    }
-}
-
 //Footer
 
 .footer__year {
