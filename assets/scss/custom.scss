@@ -61,8 +61,6 @@ $screen-xl-min: 2400px;
     display: flex;
     flex-direction: column;
     padding: 1% 0;
-    //margin-top: 2%;
-    //margin-bottom: 2%;
 }
 
 .logo-image {
@@ -120,7 +118,6 @@ $screen-xl-min: 2400px;
 
 .help_header {
     display: flex;
-    //width: 100px;
     height: 3rem;
     justify-content: center;
     align-items: center;
@@ -235,6 +232,16 @@ $screen-xl-min: 2400px;
 
 .menu__item {
     transition-duration: .25s;
+}
+
+@media screen and (min-width:1400px) and (max-width:1700px) {
+    .phone_number {
+        width: 15%;
+    }
+
+    .help_header {
+        width: 10%;
+    }
 }
 
 //About
