@@ -99,7 +99,7 @@
 <i>Desctop версия</i>
   <br />
   <br />
-    <img src="./assets/gif/Demo_big-screen.gif" alt="screenshot" width="1000" >
+    <img src="./assets/gif/Demo_big-screen.gif" alt="gif" width="1000" >
     <br />
     <br />
     <br />
@@ -107,7 +107,7 @@
 <i>Tablet версия</i>
   <br />
   <br />
-    <img src="./assets/gif/Demo_iPadAir.gif" alt="screenshot" width="1000">
+    <img src="./assets/gif/Demo_iPadAir.gif" alt="gif" width="1000">
     <br />
     <br />
     <br />
@@ -115,7 +115,7 @@
 <i>Mobile версия</i>
   <br />
   <br />
-    <img src="./assets/gif/Demo_iPhone.gif" alt="screenshot" width="1000" >
+    <img src="./assets/gif/Demo_iPhone.gif" alt="gif" width="1000" >
 </div>
 
 
