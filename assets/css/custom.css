@@ -12215,7 +12215,7 @@ textarea.form-control-lg {
 
 #about {
   padding-top: 1%;
-  background-image: url(../../img/integration-3527263_1280.jpg);
+  background-image: url(../../assets/img/integration-3527263_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12455,6 +12455,19 @@ textarea.form-control-lg {
     grid-template-rows: repeat(5, 1fr);
   }
 }
+.person {
+  margin: 2% 0;
+}
+
+.list-about-person {
+  padding: 0;
+}
+
+.item-about-person {
+  margin-top: 1.5%;
+  list-style-type: none;
+}
+
 .footer__year {
   color: rgb(3, 30, 106);
 }

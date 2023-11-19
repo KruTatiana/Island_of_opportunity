@@ -1,7 +1,9 @@
 // Custom.scss
+
+// 1. Подключение Bootstrap 
+
 @import "../bootstrap/scss/_bootstrap";
-// 1. Подключение функций Bootstrap (so you can manipulate colors, SVGs, calc, etc)
-//@import "../bootstrap/scss/functions";
+
 // 2. Наши переменные
 $section2-color: #FED34F;
 $section3-color: #077D22;
@@ -23,30 +25,6 @@ $screen-lg-min: 992px;
 $screen-l-min: 1200px;
 // Large desctops
 $screen-xl-min: 2400px;
-
-
-
-
-// 3. Подключение необходимых таблиц стилей Bootstrap. (including any separate color mode stylesheets)
-//@import "../bootstrap/scss/variables";
-//@import "..//bootstrap/scss/variables-dark";
-// 4. Наши переопределения maps, заданых по умолчанию.
-// 5. Подключение необходимых деталей Bootstrap 
-//@import "../bootstrap/scss/maps";
-//@import "../bootstrap/scss/mixins";
-//@import "../bootstrap/scss/root";
-// 6. Не обязательные детали Bootstrap.
-//@import "../bootstrap/scss/utilities";
-// @import "../bootstrap/scss/reboot";
-// @import "../bootstrap/scss/type";
-// @import "../bootstrap/scss/images";
-// @import "../bootstrap/scss/containers";
-// @import "../bootstrap/scss/grid";
-// @import "../bootstrap/scss/helpers";
-// 7. Не обязательная API утилита для создания классов на основе карты Sass в `_utilities.scss`
-// @import "../bootstrap/scss/utilities/api";
-// 8. Наш код здесь
-
 
 //Header
 .header-custom {
@@ -295,7 +273,7 @@ $screen-xl-min: 2400px;
 
 #about {
     padding-top: 1%;
-    background-image: url(../../img/integration-3527263_1280.jpg);
+    background-image: url(../../assets/img/integration-3527263_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -393,6 +371,7 @@ $screen-xl-min: 2400px;
     margin-left: 1%;
 
 }
+
 .cards_grid {
     display: grid;
     gap: 2px;
@@ -532,63 +511,12 @@ $screen-xl-min: 2400px;
     text-decoration: none;
 }
 
-// .card_reboot {
-//     grid-area: reboot;
-// }
-
-// .card_presence {
-//     grid-area: presence;
-// }
-
-// .card_camps {
-//     grid-area: camps;
-// }
-
-// .card_management {
-//     grid-area: management;
-// }
-
-// .card_consultation {
-//     grid-area: consultation;
-// }
-
-// .card_therapy {
-//     grid-area: therapy;
-// }
-
-// .card_prevention {
-//     grid-area: prevention;
-// }
-
-// .card_support {
-//     grid-area: support;
-// }
-
-// .card_courses {
-//     grid-area: courses;
-// }
-
-// .card_webinars {
-//     grid-area: webinars;
-// }
-
 @media screen and (max-width: 490px) {
     .cards_grid {
         width: 100%;
         gap: 0;
         grid-template-columns: 100%;
         grid-template-rows: repeat(10, 1fr);
-        // grid-template-areas:
-        //     "reboot"
-        //     "presence"
-        //     "camps"
-        //     "management"
-        //     "conultation"
-        //     "therapy"
-        //     "prevention"
-        //     "suport"
-        //     "courses"
-        //     "webinars";
     }
 }
 
@@ -597,13 +525,21 @@ $screen-xl-min: 2400px;
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 1fr);
-        // grid-template-areas:
-        //     "reboot presence"
-        //     "camps management"
-        //     "consultation therapy"
-        //     "prevention support"
-        //     "courses webinars";
     }
+}
+
+//Employee pages
+.person {
+    margin: 2% 0;
+}
+
+.list-about-person {
+    padding: 0;
+}
+
+.item-about-person {
+    margin-top: 1.5%;
+    list-style-type: none;
 }
 
 //Footer
