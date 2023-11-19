@@ -12066,8 +12066,8 @@ textarea.form-control-lg {
 .menu__btn {
   display: flex;
   align-items: center;
-  position: relative;
-  margin: 0 5% 5% 5%;
+  position: fixed;
+  margin: 0 5% 5% 0;
   width: 26px;
   height: 26px;
   cursor: pointer;
