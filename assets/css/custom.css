@@ -11984,12 +11984,6 @@ textarea.form-control-lg {
   max-width: 85%;
 }
 
-.logo_container {
-  display: flex;
-  flex-direction: column;
-  padding: 1% 0;
-}
-
 .logo-image {
   height: 7vh;
   margin-right: 5%;
@@ -12066,7 +12060,7 @@ textarea.form-control-lg {
 .menu__btn {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: relative;
   margin: 0 5% 5% 0;
   width: 26px;
   height: 26px;
@@ -12143,6 +12137,10 @@ textarea.form-control-lg {
   left: 0;
 }
 
+#menu__toggle:checked ~ .menu__btn {
+  position: fixed;
+}
+
 .menu__btn-line,
 .menu__btn-line::before,
 .menu__btn-line::after {
@@ -12157,14 +12155,6 @@ textarea.form-control-lg {
   transition-duration: 0.25s;
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1700px) {
-  .phone_number {
-    width: 15%;
-  }
-  .help_header {
-    width: 10%;
-  }
-}
 .font-about {
   color: rgb(3, 30, 106);
 }
