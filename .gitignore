@@ -400,3 +400,11 @@ FodyWeavers.xsd
 #Bootstrap
 
 bootstrap/*
+
+#SASS
+
+scss/*
+
+#Other
+
+pdf/*
