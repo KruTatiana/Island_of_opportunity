@@ -10,63 +10,91 @@
     <header class="header-custom">
       <nav class="container-fluid navbar container-fluid__header">
         <!-- Всплывающее бургер-меню для экранов xs и sm -->
-          <div class="burger-menu d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span class="menu__btn-line"></span>
-            </label>
-            <ul class="menu__box">
-              <li><a class="menu__item" href="./index.html" target="_self">Главная</a>
-              </li>
-              <li><a class="menu__item" href="#charity"
-                >Благотворителям</a>
-              </li>
-              <li><a class="menu__item" href="#employees"
-                >Сотрудники</a>
-              </li>
-              <li><a class="menu__item" href="#programs"
-                >Программы</a>
-              <li><a class="menu__item" href="./pages/education.html" target="_blank"
-                >Документы</a>
-              </li>
-              </li>
-            </ul>
-          </div>
-          <!-- Логотип -->
-          <div class="logo_container">
-            <img class="logo-image" src="./assets/img/NKO_Logo.svg" alt="Логотип">  
-            <div class="name_logo"><span class="name_logo1">остров</span><span class="name_logo2">возможностей</span>
-            </div>
-          </div>
-          <!-- Основное меню -->
-          <ul role="navigation" class="nav nav-fill d-none d-sm-none d-md-none d-lg-inline-flex d-xl-inline-flex d-xxl-inline-flex">
-            <li class="nav-item">
-              <a class="nav-link active nav-font-custom" href="./index.html" target="_self">Главная</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active nav-font-custom" href="#charity">Благотворителям</a
+        <div
+          class="burger-menu d-block d-sm-block d-md-block d-lg-block d-xl-none d-xxl-none"
+        >
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span class="menu__btn-line"></span>
+          </label>
+          <ul class="menu__box">
+            <li>
+              <a class="menu__item" href="./index.html" target="_self"
+                >Главная</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link active nav-font-custom" href="#employees"
-                >Сотрудники</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active nav-font-custom" href="#programs"
-                >Программы</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active nav-font-custom" href="./pages/education.html" target="_blank"
+            <li><a class="menu__item" href="#charity">Благотворителям</a></li>
+            <li><a class="menu__item" href="#employees">Сотрудники</a></li>
+            <li><a class="menu__item" href="#programs">Программы</a></li>
+            <li>
+              <a
+                class="menu__item"
+                href="./pages/education.html"
+                target="_blank"
                 >Документы</a
               >
             </li>
           </ul>
-          <!-- Кнопка позвонить с кликабельным номером телефона -->
-          <a class="nav-link active phone_number col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-2" href="tel:+7123456789">+7123456789</a>
-          <!-- Кнопка "помочь" с модальным окном из секции "благотворителям" -->
-          <button
+        </div>
+        <!-- Логотип -->
+        <div
+          class="logo_container mt-2 col-lg-10 col-xl-1 col-xxl-1 d-flex flex-row flex-sm-row flex-md-row flex-lg-row flex-xl-column flex-xxl-column justify-content-end justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-start justify-content-xxl-start"
+        >
+          <img
+            class="logo-image"
+            src="./assets/img/NKO_Logo.svg"
+            alt="Логотип"
+          />
+          <div class="name_logo">
+            <span class="name_logo1">остров</span
+            ><span class="name_logo2">возможностей</span>
+          </div>
+        </div>
+        <!-- Основное меню -->
+        <ul
+          role="navigation"
+          class="nav nav-fill d-none d-sm-none d-md-none d-lg-none d-xl-inline-flex d-xxl-inline-flex"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link active nav-font-custom"
+              href="./index.html"
+              target="_self"
+              >Главная</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav-font-custom" href="#charity"
+              >Благотворителям</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav-font-custom" href="#employees"
+              >Сотрудники</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav-font-custom" href="#programs"
+              >Программы</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active nav-font-custom"
+              href="./pages/education.html"
+              target="_blank"
+              >Документы</a
+            >
+          </li>
+        </ul>
+        <!-- Кнопка позвонить с кликабельным номером телефона -->
+        <a
+          class="nav-link active phone_number col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-2"
+          href="tel:+7123456789"
+          >+7123456789</a
+        >
+        <!-- Кнопка "помочь" с модальным окном из секции "благотворителям" -->
+        <button
           type="button"
           class="help_header col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-2"
           data-bs-toggle="modal"
@@ -78,8 +106,7 @@
     </header>
     <main>
       <section id="about">
-        <div class="about-img">
-        </div>
+        <div class="about-img"></div>
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-sm-12">
@@ -87,30 +114,71 @@
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      <p class="font-weight-bold"><h3 class="font-about">О нас</h3></p>
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      <div class="font-weight-bold">
+                        <h3 class="font-about">О нас</h3>
+                      </div>
                     </button>
                   </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><h5 class="text-about">
-                      Теория семейного кризиса основана на представлениях, что наличие ребенка с ОВЗ является единственной проблемой существования такой семьи, но в рамках разносторонней семейной модели, влияние особого ребенка на семью рассматривается как один из элементов, с которым приходится считаться при организации семейной жизни.
-                      В такой семье есть и другие проблемы: родители должны заработать на жизнь и откликаться на потребность других членов семьи, то есть семья должна обеспечить нормальное существование всем своим членам.
-                      При планировании помощи мы учитываем трудности,которые семья испытывает, обеспечивая свои нужды.
-                      Некоторые родители в борьбе с трудностью, предпочитают оставить проблемы внутри семьи, не прибегая к помощи специалистам, таким образом, уходя в изоляцию, что негативно влияет на дальнейшее существование семьи, выгоранию родителей и даже может стать причиной ее распада.
-                      Дело в том, что даже простые вещи, такие как возможность заниматься интересующим их хобби или встречей с друзьями, походом в кино вызывают большие трудности в подобных семьях.
-                      Если в описании данной проблемы Вы нашли сходство с ситуацией в Вашей семье, если Вас посещают мысли вернуть приемного ребенка обратно в социальное учреждение, то мы готовы оказать надежную, доступную, регулярную, неформальную помощь, которая значительно облегчит семейный стресс. Ведь качество жизни зависит во многом от возможности хоть иногда освободиться от тягот повседневного ухода за особенным ребенком.
-                      Мы считаем очень важным поддерживать родителей в нормализации структуры жизни семьи.
-                      В АНО «Остров Возможностей» существуют несколько программ, направленных на оказание помощи семьям, находящимся в кризисе. Наши специалисты могут Вам помочь выявить проблему, составить план выхода из кризиса, наладить взаимоотношения.
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <h5 class="text-about">
+                        Теория семейного кризиса основана на представлениях, что
+                        наличие ребенка с ОВЗ является единственной проблемой
+                        существования такой семьи, но в рамках разносторонней
+                        семейной модели, влияние особого ребенка на семью
+                        рассматривается как один из элементов, с которым
+                        приходится считаться при организации семейной жизни. В
+                        такой семье есть и другие проблемы: родители должны
+                        заработать на жизнь и откликаться на потребность других
+                        членов семьи, то есть семья должна обеспечить нормальное
+                        существование всем своим членам. При планировании помощи
+                        мы учитываем трудности,которые семья испытывает,
+                        обеспечивая свои нужды. Некоторые родители в борьбе с
+                        трудностью, предпочитают оставить проблемы внутри семьи,
+                        не прибегая к помощи специалистам, таким образом, уходя
+                        в изоляцию, что негативно влияет на дальнейшее
+                        существование семьи, выгоранию родителей и даже может
+                        стать причиной ее распада. Дело в том, что даже простые
+                        вещи, такие как возможность заниматься интересующим их
+                        хобби или встречей с друзьями, походом в кино вызывают
+                        большие трудности в подобных семьях. Если в описании
+                        данной проблемы Вы нашли сходство с ситуацией в Вашей
+                        семье, если Вас посещают мысли вернуть приемного ребенка
+                        обратно в социальное учреждение, то мы готовы оказать
+                        надежную, доступную, регулярную, неформальную помощь,
+                        которая значительно облегчит семейный стресс. Ведь
+                        качество жизни зависит во многом от возможности хоть
+                        иногда освободиться от тягот повседневного ухода за
+                        особенным ребенком. Мы считаем очень важным поддерживать
+                        родителей в нормализации структуры жизни семьи. В АНО
+                        «Остров Возможностей» существуют несколько программ,
+                        направленных на оказание помощи семьям, находящимся в
+                        кризисе. Наши специалисты могут Вам помочь выявить
+                        проблему, составить план выхода из кризиса, наладить
+                        взаимоотношения.
                       </h5>
-                  </div>
+                    </div>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
-      </div> 
-      <br />
-        </section>
+        <br />
+      </section>
       <section id="charity">
         <div class="container-fluid container-fluid__charity">
           <div class="row row__charity">
@@ -137,14 +205,22 @@
                       ></button>
                     </div>
                     <div class="modal-body">
-                      <div class="modal-text">QR-код для пожертвований через <br /> приложение Вашего банка.</div>
-                      <img class="footer__block_image" src="./assets/img/Qr.jpeg" />
+                      <div class="modal-text">
+                        QR-код для пожертвований через <br />
+                        приложение Вашего банка.
+                      </div>
+                      <img
+                        class="footer__block_image"
+                        src="./assets/img/Qr.jpeg"
+                      />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col col-lg-6 col-md-12 col-sm-12 col-xs-12 col-text__charity">
+            <div
+              class="col col-lg-6 col-md-12 col-sm-12 col-xs-12 col-text__charity"
+            >
               Мы считаем необходимым воспитывать детей в духе патриотизма и
               любви к Родине, поэтому для наших подопечных мы готовим
               соответствующие программы. Для реализации наших программ принимаем
@@ -160,40 +236,97 @@
           <div class="row justify-content-center">
             <div class="col-md-5">
               <div class="sotrudniki">
-              <h2 class="header-sotrudniki">Наши сотрудники</h2>
+                <h2 class="header-sotrudniki">Наши сотрудники</h2>
               </div>
-              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div
+                id="carouselExampleCaptions"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./assets/img/toroshina_tatiana.jpg" class="d-block w-100" alt="Торощина Татьяна">
+                    <img
+                      src="./assets/img/toroshina_tatiana.jpg"
+                      class="d-block w-100"
+                      alt="Торощина Татьяна"
+                    />
                     <div class="carousel-caption d-md-block">
                       <h5>Торощина Татьяна Викторовна</h5>
                       <p>Психолог, EMDR терапевт</p>
-                      <button type="button" class="btn btn-success btn-sm"><a class="link_button" href="./pages/toroshina_tatiana.html" target="_self">Подробнее</a>
-                        </button>
-                  </div>
+                      <button type="button" class="btn btn-success btn-sm">
+                        <a
+                          class="link_button"
+                          href="./pages/toroshina_tatiana.html"
+                          target="_self"
+                          >Подробнее</a
+                        >
+                      </button>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./assets/img/inessa_1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption  d-md-block">
+                    <img
+                      src="./assets/img/inessa_1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-md-block">
                       <h5>Кутафина Инесса Александровна</h5>
                       <p>Руководитель</p>
-                      <button type="button" class="btn btn-success btn-sm"><a class="link_button" href="./pages/kutafina_inessa.html" target="_self">Подробнее</a>
+                      <button type="button" class="btn btn-success btn-sm">
+                        <a
+                          class="link_button"
+                          href="./pages/kutafina_inessa.html"
+                          target="_self"
+                          >Подробнее</a
+                        >
                       </button>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
                   <span class="visually-hidden">Предыдущий</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
                   <span class="visually-hidden">Следующий</span>
                 </button>
               </div>
@@ -203,41 +336,127 @@
       </section>
       <section id="programs">
         <div class="title"><h2 class="text-title">Наши программы</h2></div>
-        <p class="container_word col lg-6 col md-12 col-sm-12">В АНО «Остров Возможностей» существуют несколько программ, направленных на оказание помощи семьям, находящимся в кризисе. Наши специалисты могут Вам помочь выявить проблему, составить план выхода из кризиса, наладить взаимоотношения."</p>
+        <p class="container_word col lg-6 col md-12 col-sm-12">
+          В АНО «Остров Возможностей» существуют несколько программ,
+          направленных на оказание помощи семьям, находящимся в кризисе. Наши
+          специалисты могут Вам помочь выявить проблему, составить план выхода
+          из кризиса, наладить взаимоотношения."
+        </p>
         <div class="cards_grid">
-            <div class="card_reboot">
-                <a class="card_reboot_button" href="./pages/parezagruzka.html" target="_blank">Перезагрузка</a></div>
-            <div class="card_presence">
-                <a class="card_presence_button" href="./pages/prisutstvie.html" target="_blank">Присутствие</a></div>
-            <div class="card_camps">
-                <a class="card_camps_button" href="./pages/lager-dnevnogo-preb.html" target="tekst">Лагеря дневного пребывания</a></div>
-            <div class="card_management">
-                <a class="card_management_button" href="./pages/menedgment.html" target="tekst">Менеджмент семейной системы</a></div>
-            <div class="card_consultation">
-                <a class="card_consultation_button" href="./pages/konsultazia.html" target="tekst">Консультации специалистов</a></div>
-            <div class="card_therapy">
-                <a class="card_therapy_button" href="./pages/animal-terapia.html" target="tekst">Анимал терапия</a></div>
-            <div class="card_prevention">
-                <a class="card_prevention_button" href="./pages/early pregnancy.html">Профилактика ранней беременности</a></div>
-            <div class="card_support">
-                <a class="card_support_button" href="./pages/post-boarding support.html">Постинтернатная поддержка</a></div>
-            <div class="card_courses">
-                <a class="card_courses_button" href="./pages/kurs.html">Курсы</a></div>
-            <div class="card_webinars">
-                <a class="card_webinars_button" href="./pages/vebinar.html">Вебинары</a></div>
+          <div class="card_reboot">
+            <a
+              class="card_reboot_button"
+              href="./pages/parezagruzka.html"
+              target="_self"
+              >Перезагрузка</a
+            >
+          </div>
+          <div class="card_presence">
+            <a
+              class="card_presence_button"
+              href="./pages/prisutstvie.html"
+              target="_self"
+              >Присутствие</a
+            >
+          </div>
+          <div class="card_camps">
+            <a
+              class="card_camps_button"
+              href="./pages/lager-dnevnogo-preb.html"
+              target="_self"
+              >Лагеря дневного пребывания</a
+            >
+          </div>
+          <div class="card_management">
+            <a
+              class="card_management_button"
+              href="./pages/menedgment.html"
+              target="_self"
+              >Менеджмент семейной системы</a
+            >
+          </div>
+          <div class="card_consultation">
+            <a
+              class="card_consultation_button"
+              href="./pages/konsultazia.html"
+              target="_self"
+              >Консультации специалистов</a
+            >
+          </div>
+          <div class="card_therapy">
+            <a
+              class="card_therapy_button"
+              href="./pages/animal-terapia.html"
+              target="tekst"
+              >Анимал терапия</a
+            >
+          </div>
+          <div class="card_prevention">
+            <a
+              class="card_prevention_button"
+              href="./pages/early pregnancy.html"
+              target="_self"
+              >Профилактика ранней беременности</a
+            >
+          </div>
+          <div class="card_support">
+            <a
+              class="card_support_button"
+              href="./pages/post-boarding support.html"
+              target="_self"
+              >Постинтернатная поддержка</a
+            >
+          </div>
+          <div class="card_courses">
+            <a class="card_courses_button" href="./pages/kurs.html">Курсы</a>
+          </div>
+          <div class="card_webinars">
+            <a class="card_webinars_button" href="./pages/vebinar.html"
+              >Вебинары</a
+            >
+          </div>
         </div>
       </section>
     </main>
     <footer class="d-none d-sm-none d-md-block">
       <div class="footer">
-          <div class="footer__block_navigation">
-          <a class="footer__block_navigation1" href="./pages/library.html" target="_blank">Семейная библиотека</a>
-          <a class="footer__block_navigation1" href="./pages/museum.html" target="_blank">Музейная деятельность</a>
-          <a class="footer__block_navigation1" href="https://t.me/nkoostrov" target="_blank">Новости</a>
-          <a class="footer__block_navigation1" href="./pages/announcements.html" target="_blank">Анонсы</a>
-          <a class="footer__block_navigation1" href="./pages/archive.html" target="_blank">Архив мероприятий</a>
-          <a class="footer__block_navigation1" href="./pages/education.html" target="_blank">Документы</a>
-          </div>
+        <div class="footer__block_navigation">
+          <a
+            class="footer__block_navigation1"
+            href="./pages/library.html"
+            target="_blank"
+            >Семейная библиотека</a
+          >
+          <a
+            class="footer__block_navigation1"
+            href="./pages/museum.html"
+            target="_blank"
+            >Музейная деятельность</a
+          >
+          <a
+            class="footer__block_navigation1"
+            href="https://t.me/nkoostrov"
+            target="_blank"
+            >Новости</a
+          >
+          <a
+            class="footer__block_navigation1"
+            href="./pages/announcements.html"
+            target="_blank"
+            >Анонсы</a
+          >
+          <a
+            class="footer__block_navigation1"
+            href="./pages/archive.html"
+            target="_blank"
+            >Архив мероприятий</a
+          >
+          <a
+            class="footer__block_navigation1"
+            href="./pages/education.html"
+            target="_blank"
+            >Документы</a
+          >
         </div>
       </div>
       <div class="footer__copy">
