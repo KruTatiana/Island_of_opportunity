@@ -26,6 +26,12 @@ $screen-l-min: 1200px;
 // Large desctops
 $screen-xl-min: 2400px;
 
+//Global
+
+h2 {
+    color: $font-logo-color;
+}
+
 //Header
 .header-custom {
     background-color: $header-color;
