@@ -11996,6 +11996,7 @@ h2, .h2 {
 .name_logo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .name_logo1 {
@@ -12053,9 +12054,30 @@ h2, .h2 {
   background-color: transparent;
 }
 
+.burger-menu {
+  align-self: center;
+}
+
+#menu__toggle {
+  opacity: 0;
+  position: fixed;
+}
+
+.menu__btn {
+  display: flex;
+  position: relative;
+  margin: 0 5% 5% 0;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 120;
+}
+
 .menu__btn-line,
 .menu__btn-line::before,
 .menu__btn-line::after {
+  display: block;
+  position: absolute;
   width: 100%;
   height: 2px;
   background-color: #616161;
@@ -12072,6 +12094,15 @@ h2, .h2 {
 }
 
 .menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
   list-style: none;
   text-align: center;
   background-color: #ECEFF1;
@@ -12080,6 +12111,8 @@ h2, .h2 {
 }
 
 .menu__item {
+  display: block;
+  padding: 12px 24px;
   color: #333;
   font-size: 1.25rem;
   font-weight: 600;
@@ -12102,6 +12135,29 @@ h2, .h2 {
 #menu__toggle:checked ~ .menu__btn > .menu__btn-line::after {
   top: 0;
   transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn {
+  position: fixed;
+}
+
+.menu__btn-line,
+.menu__btn-line::before,
+.menu__btn-line::after {
+  transition-duration: 0.25s;
+}
+
+.menu__box {
+  transition-duration: 0.25s;
+}
+
+.menu__item {
+  transition-duration: 0.25s;
 }
 
 .font-about {
