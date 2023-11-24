@@ -11996,6 +11996,7 @@ h2, .h2 {
 .name_logo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .name_logo1 {
@@ -12054,16 +12055,16 @@ h2, .h2 {
 }
 
 .burger-menu {
-  align-self: flex-start;
+  align-self: center;
 }
 
 #menu__toggle {
   opacity: 0;
+  position: fixed;
 }
 
 .menu__btn {
   display: flex;
-  align-items: center;
   position: relative;
   margin: 0 5% 5% 0;
   width: 26px;
