@@ -41,12 +41,6 @@ h2 {
     max-width: 85%;
 }
 
-//.logo_container {
-// display: flex;
-// flex-direction: column;
-// padding: 1% 0;
-// }
-
 .logo-image {
     height: 7vh;
     margin-right: 5%;
@@ -55,6 +49,7 @@ h2 {
 .name_logo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .name_logo1 {
@@ -116,16 +111,16 @@ h2 {
 //Бургер-меню
 
 .burger-menu {
-    align-self: flex-start;
+    align-self: center;
 }
 
 #menu__toggle {
     opacity: 0;
+    position: fixed;
 }
 
 .menu__btn {
     display: flex;
-    align-items: center;
     position: relative;
     margin: 0 5% 5% 0;
     width: 26px;
@@ -220,6 +215,7 @@ h2 {
 .menu__item {
     transition-duration: .25s;
 }
+
 
 //About
 
