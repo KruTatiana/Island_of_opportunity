@@ -1,4 +1,3 @@
-@ -1,155 +0,0 @@
 # Island_of_opportunity
 
 <a name="readme-top"></a>
@@ -13,7 +12,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/KruTatiana/Island_of_opportunity">
+  <a href="https://krutatiana.github.io/Island_of_opportunity/">
     <img src="./assets/img/readme_img/NKO_Logo.png" alt="Logo" width="100" height="80">
   </a>
   </div>
